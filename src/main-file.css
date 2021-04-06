@@ -1,0 +1,53 @@
+.Header-file {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  font-variant: small-caps;
+  word-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+  .App-link{
+  color: blue;
+  text-decoration: none;
+}
+.Link-Data{
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.Link-Data{
+  background-color: green;
+  color: white;
+}
+
+.Container{
+  background-color: cornsilk;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3,1);
+  grid-template-rows: 2;
+}
+.Grid-1{
+  background-color: black;
+  padding: 10px;
+  grid-template-columns: 1;
+}
+.Grid-1{
+  background-color: red;
+  padding: 10px;
+  grid-template-columns: 1;
+}
+.Grid-1{
+  background-color:blue;
+  padding: 10px;
+  grid-template-columns: 1;
+}
+
